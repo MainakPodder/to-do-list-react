@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.mainDiv {
+  background-color: #6edc58;
+  padding: 10px 0px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.centerDiv {
+  background-color: #f4f4f4;
+  width: 25%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  padding: 15px 0px;
+}
+h1 {
+  background: transparent;
+  background-color: #30336b;
+  margin: 15px 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #f4f4f4;
+  font-weight: 700;
+  letter-spacing: 3px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+input {
+  border: none;
+  height: 30px;
+  width: 65%;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 2px solid #30336b;
+  background: transparent;
+  outline: none;
+  font-weight: 600;
+  font-family: cursive;
+  margin-bottom: 22px;
+}
+.add {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #30336b;
+  font-size: 30px;
+  margin-left: 10px;
+}
+button:hover {
+  color: #6edc58;
+  transition: all 0.3s linear;
+}
+li {
+  text-align: left;
+  color: #30336b;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: medium;
+  font-family: cursive;
+  margin-left: 49px;
+  /* margin-top: 15px; */
+}
+.toDoStyle {
+  display: flex;
+  height: auto;
+  margin-bottom: 20px;
+}
+.fa-trash-can {
+  position: relative;
+  top: 4px;
+  left: 21px;
+  color: #6edc58;
+  cursor: pointer;
+  font-size: 16px;
+}
+.fa-trash-can:hover {
+  color: red;
+  transition: all 0.3s linear;
+}
+@media (max-width: 1250px) {
+  .centerDiv {
+    width: 40%;
+  }
+}
+@media (max-width: 750px) {
+  .centerDiv {
+    width: 70%;
+  }
+}
